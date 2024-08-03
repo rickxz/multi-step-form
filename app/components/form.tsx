@@ -136,9 +136,9 @@ export function Form() {
 								<Image
 									src="/finish.svg"
 									alt="Finish"
-									className="mb-[10px]"
-									width={120}
-									height={120}
+									width={0}
+									height={0}
+									className="mb-[10px] size-[7.5rem]"
 								/>
 							)}
 

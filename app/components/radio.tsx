@@ -31,11 +31,11 @@ export function Radio({ isChecked, title, src, register, name }: RadioProps) {
 			<div className="flex items-center gap-3">
 				<div className="flex justify-center items-center size-16 rounded-full bg-indigo-200">
 					<Image
-						className="drop-shadow-[0_4px_6px_rgba(79,70,229,0.5)] h-auto w-auto"
+						className="drop-shadow-[0_4px_6px_rgba(79,70,229,0.5)] size-[2.25rem]"
 						src={src}
 						alt={title}
-						width={36}
-						height={36}
+						width={0}
+						height={0}
 					/>
 				</div>
 				<span className="text-lg">{title}</span>
